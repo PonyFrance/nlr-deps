@@ -1,0 +1,25 @@
+{
+  "name": "NewLunarRepublic",
+  "version": "2.0.0",
+  "description": "New Lunar Republic's Website",
+  "private": true,
+  "dependencies": {
+    "store": "^1.3.20",
+    "video.js": "^5.9.2",
+    "videojs-chromecast": "github:mkody/videojs-chromecast",
+    "videojs-hotkeys": "^0.2.14",
+    "videojs-resolution-switcher": "^0.4.2",
+    "videojs-resume": "^0.3.2",
+    "videojs-socialshare": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.radiobrony.fr/MKody/redesign-NLR.git"
+  },
+  "bugs": "https://git.radiobrony.fr/MKody/redesign-NLR/issues",
+  "author": "MKody <im@kdy.ch> (https://kdy.ch/)",
+  "license": "MIT"
+}
