@@ -1,25 +1,44 @@
 {
   "name": "newlunarrepublicfr",
-  "version": "2.0.0",
+  "version": "2.0.0-RC1",
   "description": "New Lunar Republic's Website",
+  "homepage": "https://www.newlunarrepublic.fr",
+  "bugs": "https://git.radiobrony.fr/MKody/redesign-NLR/issues",
+  "license": "MIT",
   "private": true,
+  "author": "MKody <im@kdy.ch> (https://kdy.ch/)",
+  "repository": {
+    "type": "git",
+    "url": "https://git.radiobrony.fr/MKody/redesign-NLR.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/standard",
+    "build": "node compress.js"
+  },
   "dependencies": {
+    "cheet.js": "^0.3.3",
+    "eastereck": "kevinherklotz/eastereck#1f97f13",
+    "hint.css": "^2.3.1",
     "store": "^1.3.20",
+    "trumbowyg": "^2.1.0",
     "video.js": "^5.9.2",
-    "videojs-chromecast": "github:mkody/videojs-chromecast",
+    "videojs-chromecast": "mkody/videojs-chromecast#ad940fe",
     "videojs-hotkeys": "^0.2.14",
     "videojs-resolution-switcher": "^0.4.2",
     "videojs-resume": "^0.3.2",
     "videojs-socialshare": "^1.0.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "devDependencies": {
+    "node-minify": "^1.3.9",
+    "standard": "^7.1.2"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://git.radiobrony.fr/MKody/redesign-NLR.git"
-  },
-  "bugs": "https://git.radiobrony.fr/MKody/redesign-NLR/issues",
-  "author": "MKody <im@kdy.ch> (https://kdy.ch/)",
-  "license": "MIT"
+  "standard": {
+    "globals": [
+      "jQuery",
+      "location"
+    ],
+    "ignore": [
+      "/js/oldfag/"
+    ]
+  }
 }
