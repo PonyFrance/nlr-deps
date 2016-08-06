@@ -1,32 +1,31 @@
 {
   "name": "newlunarrepublicfr",
-  "version": "2.0.0-RC1",
+  "version": "2.0.0",
   "description": "New Lunar Republic's Website",
   "homepage": "https://www.newlunarrepublic.fr",
-  "bugs": "https://git.radiobrony.fr/MKody/redesign-NLR/issues",
+  "bugs": "https://git.radiobrony.fr/lcdp/NLR/issues",
   "license": "MIT",
   "private": true,
-  "author": "MKody <im@kdy.ch> (https://kdy.ch/)",
+  "author": "New Lunar Republic Team <royalguard@newlunarrepublic.fr> (https://www.newlunarrepublic.fr/)",
   "repository": {
     "type": "git",
-    "url": "https://git.radiobrony.fr/MKody/redesign-NLR.git"
+    "url": "https://git.radiobrony.fr/lcdp/NLR.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/standard",
-    "build": "node compress.js"
+    "test": "./node_modules/.bin/standard"
   },
   "dependencies": {
     "cheet.js": "^0.3.3",
     "eastereck": "kevinherklotz/eastereck#1f97f13",
-    "hint.css": "^2.3.1",
+    "hint.css": "^2.3.2",
     "store": "^1.3.20",
     "trumbowyg": "^2.1.0",
-    "video.js": "^5.9.2",
+    "video.js": "~5.11.0",
     "videojs-chromecast": "mkody/videojs-chromecast#ad940fe",
-    "videojs-hotkeys": "^0.2.14",
-    "videojs-resolution-switcher": "^0.4.2",
-    "videojs-resume": "^0.3.2",
-    "videojs-socialshare": "^1.0.1"
+    "videojs-hotkeys": "0.2.14",
+    "videojs-resolution-switcher": "0.4.2",
+    "videojs-resume": "0.3.2",
+    "videojs-socialshare": "1.0.1"
   },
   "devDependencies": {
     "node-minify": "^1.3.9",
