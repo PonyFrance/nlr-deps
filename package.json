@@ -3,13 +3,13 @@
   "version": "2.0.0",
   "description": "New Lunar Republic's Website",
   "homepage": "https://www.newlunarrepublic.fr",
-  "bugs": "https://git.radiobrony.fr/lcdp/NLR/issues",
+  "bugs": "https://git.radiobrony.fr/lcdp/nlr/issues",
   "license": "MIT",
   "private": true,
   "author": "New Lunar Republic Team <royalguard@newlunarrepublic.fr> (https://www.newlunarrepublic.fr/)",
   "repository": {
     "type": "git",
-    "url": "https://git.radiobrony.fr/lcdp/NLR.git"
+    "url": "https://git.radiobrony.fr/lcdp/nlr.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/standard"
