@@ -18,18 +18,18 @@
     "cheet.js": "^0.3.3",
     "eastereck": "kevinherklotz/eastereck#1f97f13",
     "hint.css": "2.3.2",
-    "store": "^1.3.20",
-    "trumbowyg": "^2.3.0",
-    "video.js": "~5.11.7",
+    "store": "^2.0.4",
+    "trumbowyg": "^2.5.1",
+    "video.js": "~5.19.0",
     "videojs-chromecast": "mkody/videojs-chromecast#ad940fe",
-    "videojs-hotkeys": "0.2.15",
+    "videojs-hotkeys": "0.2.17",
     "videojs-resolution-switcher": "0.4.2",
     "videojs-resume": "0.3.2",
     "videojs-socialshare": "1.0.1"
   },
   "devDependencies": {
-    "node-minify": "^1.3.9",
-    "standard": "^8.3.0"
+    "node-minify": "^2.0.3",
+    "standard": "^9.0.2"
   },
   "standard": {
     "globals": [
