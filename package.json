@@ -1,15 +1,15 @@
 {
   "name": "newlunarrepublicfr",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "New Lunar Republic's Website",
   "homepage": "https://www.newlunarrepublic.fr",
-  "bugs": "https://git.radiobrony.fr/lcdp/nlr/issues",
+  "bugs": "https://gitlab.com/NLRfr/NLR/issues",
   "license": "MIT",
   "private": true,
   "author": "New Lunar Republic Team <royalguard@newlunarrepublic.fr> (https://www.newlunarrepublic.fr/)",
   "repository": {
     "type": "git",
-    "url": "https://git.radiobrony.fr/lcdp/nlr.git"
+    "url": "https://gitlab.com/NLRfr/NLR.git"
   },
   "scripts": {
     "test": "./node_modules/.bin/standard"
@@ -17,19 +17,18 @@
   "dependencies": {
     "cheet.js": "^0.3.3",
     "eastereck": "kevinherklotz/eastereck#1f97f13",
-    "hint.css": "2.3.2",
+    "hint.css": "2.5.0",
     "store": "^2.0.4",
     "trumbowyg": "^2.5.1",
-    "video.js": "~5.19.0",
-    "videojs-chromecast": "mkody/videojs-chromecast#ad940fe",
-    "videojs-hotkeys": "0.2.17",
+    "video.js": "~5.19.2",
+    "videojs-chromecast": "benjipott/video.js-chromecast#2.0.9",
+    "videojs-hotkeys": "0.2.18",
     "videojs-resolution-switcher": "0.4.2",
-    "videojs-resume": "0.3.2",
-    "videojs-socialshare": "1.0.1"
+    "videojs-resume": "0.3.2"
   },
   "devDependencies": {
     "minifier": "^0.8.1",
-    "standard": "^9.0.2"
+    "standard": "^10.0.2"
   },
   "standard": {
     "globals": [
