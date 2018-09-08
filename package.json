@@ -12,23 +12,26 @@
     "url": "https://gitlab.com/NLRfr/NLR.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/standard"
+    "test": "./node_modules/.bin/standard",
+    "minify": "node minify.js"
   },
   "dependencies": {
     "cheet.js": "^0.3.3",
     "eastereck": "kevinherklotz/eastereck#1f97f13",
     "hint.css": "2.5.0",
-    "store": "^2.0.4",
-    "trumbowyg": "^2.5.1",
-    "video.js": "~5.19.2",
-    "videojs-chromecast": "benjipott/video.js-chromecast#2.0.9",
-    "videojs-hotkeys": "0.2.18",
-    "videojs-resolution-switcher": "0.4.2",
-    "videojs-resume": "0.3.2"
+    "jquery": "^3.3.1",
+    "store": "^2.0.12",
+    "trumbowyg": "^2.10.0",
+    "video.js": "^7.0.3",
+    "videojs-chromecast": "https://github.com/benjipott/video.js-chromecast.git",
+    "videojs-hotkeys": "0.2.21",
+    "videojs-resolution-switcher-v6": "https://github.com/PonyFrance/videojs-resolution-switcher.git"
   },
   "devDependencies": {
     "minifier": "^0.8.1",
-    "standard": "^10.0.2"
+    "node-minify": "^2.4.2",
+    "standard": "^11.0.1",
+    "xtend": "^4.0.1"
   },
   "standard": {
     "globals": [
